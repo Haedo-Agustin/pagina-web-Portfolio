@@ -1,5 +1,4 @@
 Website Portfolio Haedo
 ---------------------------------------------
--1. Primer Pagina Web
----------------------------------------------
--2.hay ERRORES, se puede mejorar muchisimo.
+-1[%0]_Primer Pagina Web
+-2[%0]_Hay ERRORES, se puede mejorar muchisimo.
