@@ -1,5 +1,5 @@
 Website Portfolio Haedo
 ---------------------------------------------
--1Una de las verciones alpha se perdio en un intento de subirlo al github pero es la misma pero mas actualizada.
+-1. Primer Pagina Web
 ---------------------------------------------
--2hay ERRORES, se puede mejorar muchisimo.
+-2.hay ERRORES, se puede mejorar muchisimo.
