@@ -333,9 +333,9 @@ img {
     margin-left: solid;
 }
   
-/* pie de pagina*/
+    /* pie de pagina*/
 .footer {
-    background-color: var(--second-color);
+    background-color: #0000FF;
     color: #fff;
     text-align: center;
     font-weight: var(--font-semi);
@@ -344,19 +344,25 @@ img {
 .footer__title {
     font-size: 2rem;
     margin-bottom: var(--mb-4);
+    text-align: center;
 }
 .footer__social {
     margin-bottom: var(--mb-4);
+    text-align: center;
 }
 .footer__icon {
     font-size: 1.5rem;
     color: #fff;
     margin: 0 var(--mb-2);
+    display: inline-block;
 }
 .footer__copy {
     font-size: var(--smaller-font-size);
+    text-align: center;
+} 
+.footer p {
+    text-align: center; 
 }
-  
 
 /* media queries */
 @media screen and (max-width: 320px) {
