@@ -1,6 +1,6 @@
 <header>
   <h1> Portfolio Website Haedo Design </h1>
-  <p>Alumno :<b> Haedo Agustín</b>,</p>
+  <p>Alumno :<b> Haedo Agustín</b></p>
   <h2>Trabajo Practico Final 07/06/24</h2>
   </header>
 <main>
