@@ -6,14 +6,14 @@
     --font-semi: 600;
             
     /* Colores */
-    /*purpura 260 - rojo 355 - azul 224 - rosado 340*/
+    /*purpura 260 - rojo 355 - azul 224 - rosado 340 - naranja 39*/
     /* HSL color mode */
     --hue-color: 39;
     --first-color: hsl(var(--hue-color), 99%, 45%);
     --second-color: hsl(var(--hue-color), 89%, 12%);
     --third-color: hsl(0, 0%, 100%);
-    --fourth-color: hsl(240, 7%, 22%);
-    --fifth-color: hsl(0, 0%, 12%);
+    --fourth-color: hsl(225, 6%, 13%);
+    --fifth-color: hsl(223, 7%, 21%);
 
     /* Fuente y tipografia */
     --body-font: 'Poppins', sans-serif;
