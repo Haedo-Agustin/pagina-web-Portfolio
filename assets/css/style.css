@@ -1,5 +1,8 @@
 /* FUENTES DE GOOGLE */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+
+
 /* VARIABLES CSS */
 :root{
     --header-height: 3rem;
@@ -41,6 +44,8 @@
         --smaller-font-size: .875rem;
     }
 }
+
+
 
 /* base */
 *, ::before, ::after {
@@ -111,6 +116,8 @@ img {
     box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
+
+
 /* navegacion */
 .nav {
     height: var(--header-height);
@@ -159,6 +166,8 @@ img {
     cursor: pointer;
 }
 
+
+
 /*menu activo*/
 .active-link::after {
     position: absolute;
@@ -169,10 +178,14 @@ img {
     top: 2rem;
     background-color: var(--third-color);
 }
+
+
 /* mostrar menu */
 .show {
     right: 0;
 }
+
+
 /* inicio */
 .home {
     position: relative;
@@ -214,7 +227,9 @@ img {
 .home__blob-img {
     width: 360px;
 }
-    
+   
+
+
 /*botones*/
 .button {
     display: inline-block;
@@ -245,6 +260,8 @@ img {
     border-radius: 0.5rem;
 }
   
+
+
 /*  habilidades */
 .skills__container {
     row-gap: 2rem;
@@ -301,6 +318,8 @@ img {
     border-radius: 0.5rem;
 }
   
+
+
 /* trabajos */
 .work__container {
     row-gap: 2rem;
@@ -317,6 +336,8 @@ img {
     transform: scale(1.1);
 }
   
+
+
 /* contacto */
 .contact__input {
     width: 100%;
@@ -337,11 +358,16 @@ img {
     margin-left: solid;
 }
   
-    /* pie de pagina*/
+
+
+/* pie de pagina*/
 .footer {
     color: #fff;
     text-align: center;
     font-weight: var(--font-semi);
+    padding: 2rem 0;
+    background-color: var(--fourth-color);
+    color: var(--first-color);
     padding: 2rem 0;
 }
 .footer__title {
@@ -358,14 +384,18 @@ img {
     color: #fff;
     margin: 0 var(--mb-2);
     display: inline-block;
+    color: var(--first-color);
 }
 .footer__copy {
     font-size: var(--smaller-font-size);
     text-align: center;
+    font-size: var(--smaller-font-size);
 } 
 .footer p {
     text-align: center; 
 }
+
+
 
 /* media queries */
 @media screen and (max-width: 320px) {
@@ -377,29 +407,6 @@ img {
     }
 }
 
-/* pie de pagina */
-.footer {
-    background-color: var(--fourth-color);
-    color: var(--first-color);
-    text-align: center;
-    font-weight: var(--font-semi);
-    padding: 2rem 0;
-}
-.footer__title {
-    font-size: 2rem;
-    margin-bottom: var(--mb-4);
-}
-.footer__social {
-    margin-bottom: var(--mb-4);
-}
-.footer__icon {
-    font-size: 1.5rem;
-    color: var(--first-color);
-    margin: 0 var(--mb-2);
-}
-.footer__copy {
-    font-size: var(--smaller-font-size);
-}
   
 @media screen and (min-width: 576px) {
     .home {
@@ -442,6 +449,7 @@ img {
       justify-items: center;
     }
 }
+
 @media screen and (min-width: 768px) {
     body {
       margin: 0;
