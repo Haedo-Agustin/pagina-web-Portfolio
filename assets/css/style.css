@@ -13,6 +13,7 @@
     --second-color: hsl(var(--hue-color), 89%, 12%);
     --third-color: hsl(0, 0%, 100%);
     --fourth-color: hsl(240, 7%, 22%);
+    --fifth-color: hsl(0, 0%, 12%);
 
     /* Fuente y tipografia */
     --body-font: 'Poppins', sans-serif;
@@ -49,6 +50,7 @@ html {
     scroll-behavior: smooth;
 }
 body {
+    background-color: var(--fifth-color);
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
