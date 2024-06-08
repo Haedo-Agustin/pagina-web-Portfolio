@@ -8,9 +8,11 @@
     /* Colores */
     /*purpura 260 - rojo 355 - azul 224 - rosado 340*/
     /* HSL color mode */
-    --hue-color: 224;
-    --first-color: hsl(var(--hue-color), 89%, 60%);
-    --second-color: hsl(var(--hue-color), 56%, 12%);
+    --hue-color: 39;
+    --first-color: hsl(var(--hue-color), 99%, 45%);
+    --second-color: hsl(var(--hue-color), 89%, 12%);
+    --third-color: hsl(0, 0%, 0%);
+    --fourth-color: hsl(240, 7%, 22%);
 
     /* Fuente y tipografia */
     --body-font: 'Poppins', sans-serif;
@@ -71,7 +73,7 @@ img {
 .section-title {
     position: relative;
     font-size: var(--h2-font-size);
-    color: var(--first-color);
+    color: var(--third-color);
     margin-top: var(--mb-2);
     margin-bottom: var(--mb-4);
     text-align: center;
@@ -103,7 +105,7 @@ img {
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: #fff;
+    background-color: var(--fourth-color);
     box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -123,7 +125,7 @@ img {
         width: 80%;
         height: 100%;
         padding: 2rem;
-        background-color: var(--second-color);
+        background-color: var(--fourth-color);
         transition: 0.5s;
     }
 }
@@ -132,7 +134,7 @@ img {
 }
 .nav__link {
     position: relative;
-    color: #fff;
+    color: var(--first-color);
 }
 .nav__link:hover {
     position: relative;
@@ -147,10 +149,10 @@ img {
     background-color: var(--first-color);
 }
 .nav__logo {
-    color: var(--second-color);
+    color: var(--first-color);
 }
 .nav__toggle {
-    color: var(--second-color);
+    color: var(--first-color);
     font-size: 1.5rem;
     cursor: pointer;
 }
