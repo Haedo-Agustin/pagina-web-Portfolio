@@ -11,9 +11,9 @@
   + <h3>Actualizacion  version 0.1.3</h3>
       <p>Cambio de estilo antes / despues</p>
       <h4>Primera Version</h4>
-      <image href="https://github.com/hache-bot/pagina-web-Portfolio/blob/master/assets/img/1Version.png"/>
+      https://github.com/hache-bot/pagina-web-Portfolio/blob/master/assets/img/1Version.png
       <h4>Segunda Version</h4>
-      <image href="https://github.com/hache-bot/pagina-web-Portfolio/blob/master/assets/img/2Version.png"/>
+      https://github.com/hache-bot/pagina-web-Portfolio/blob/master/assets/img/2Version.png
         
   + <h3>Actualizacion  version 0.1.2</h3>
       <p>Problemas los iconos "Facebook,twitter,in,github,instagram,etc". iconbox y img, no se visualizan, agrege iconboxes 	en el inicio,
