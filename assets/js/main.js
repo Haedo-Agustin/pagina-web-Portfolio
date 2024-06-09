@@ -17,10 +17,18 @@ const navLink = document.querySelectorAll('.nav__link')
 function linkAction(){
     const navMenu = document.getElementById('nav-menu')
     // Cuando hacemos clic en cada enlace de navegación, eliminamos la clase de menú 
+
     navMenu.classList.remove('show')
+    
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
-
+document.addEventListener('click',function(event){
+    const aaa = navMenu.contains(event.target);
+    if(!aaa){
+        navMenu.classList.remove('show');
+    }
+} 
+);
 /*==================== desplasarse por secciones ====================*/
 const sections = document.querySelectorAll('section[id]')
 
