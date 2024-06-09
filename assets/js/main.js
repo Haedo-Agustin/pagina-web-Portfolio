@@ -11,7 +11,7 @@ const showMenu = (toggleId, navId) =>{
 }
 showMenu('nav-toggle','nav-menu')
 
-/*==================== QUITAR MENÚ MÓVIL ====================*/
+/*==================== quitar menu movil ====================*/
 const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction(){
