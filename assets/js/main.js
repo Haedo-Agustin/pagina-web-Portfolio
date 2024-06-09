@@ -21,7 +21,7 @@ function linkAction(){
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/*==================== DESPLAZARSE POR SECCIONES ====================*/
+/*==================== desplasarse por secciones ====================*/
 const sections = document.querySelectorAll('section[id]')
 
 const scrollActive = () =>{
