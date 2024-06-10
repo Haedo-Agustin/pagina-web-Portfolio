@@ -19,19 +19,16 @@ function linkAction() {
     // Cuando hacemos clic en cada enlace de navegación, eliminamos la clase de menú 
     navMenu.classList.remove('show');
 }
+    // // Agregar event listener para detectar clics fuera del panel
+    // document.addEventListener('click', function(event) {
+    //     const isClickInsideNavMenu = navMenu.contains(event.target);
+    //     if (!isClickInsideNavMenu) {
+    //         // Si el clic no está dentro del panel, cerramos la ventana
+    //         navMenu.classList.remove('show');
+    //      }
+    //     });
 
-navLink.forEach(n => n.addEventListener('click', linkAction));
-
-// Agregar un event listener para cerrar el menú cuando se hace clic fuera de él
-document.addEventListener('click', function(event) {
-    const navMenu = document.getElementById('nav-menu');
-    const isClickInsideMenu = navMenu.contains(event.target);
-
-    // Si el clic no ocurrió dentro del menú, cerrarlo
-    if (!isClickInsideMenu) {
-        navMenu.classList.remove('show');
-    }
-});
+navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*==================== desplasarse por secciones ====================*/
 const sections = document.querySelectorAll('section[id]')
