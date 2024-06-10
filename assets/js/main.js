@@ -19,15 +19,7 @@ function linkAction() {
     // Cuando hacemos clic en cada enlace de navegación, eliminamos la clase de menú 
     navMenu.classList.remove('show');
 }
-    // // Agregar event listener para detectar clics fuera del panel
-    // document.addEventListener('click', function(event) {
-    //     const isClickInsideNavMenu = navMenu.contains(event.target);
-    //     if (!isClickInsideNavMenu) {
-    //         // Si el clic no está dentro del panel, cerramos la ventana
-    //         navMenu.classList.remove('show');
-    //      }
-    //     });
-
+ 
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*==================== desplasarse por secciones ====================*/
