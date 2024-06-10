@@ -19,8 +19,22 @@ function linkAction() {
     // Cuando hacemos clic en cada enlace de navegación, eliminamos la clase de menú 
     navMenu.classList.remove('show');
 }
- 
+    // const eventClick = document(event.target);
+
 navLink.forEach(n => n.addEventListener('click', linkAction))
+// const navMenu = document.getElementById('nav-menu');
+// const navToggle = document.getElementById('nav-toggle');
+
+// Función para cerrar el menú cuando se hace clic fuera del toggle
+// function closeMenu(event) {
+//     // Verificar si el clic ocurrió fuera del botón de activación
+//     if (!event.target.closest('#nav-toggle')) {
+//         // Si el clic no fue dentro del botón, cerrar el menú eliminando la clase 'show'
+//         navMenu.classList.remove('show');
+//         // Eliminar el event listener para evitar múltiples ejecuciones
+//         document.removeEventListener('click', closeMenu);
+//     }
+// }
 
 /*==================== desplasarse por secciones ====================*/
 const sections = document.querySelectorAll('section[id]')
