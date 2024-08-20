@@ -11,19 +11,6 @@ const showMenu = (toggleId, navId) =>{
 }
 showMenu('nav-toggle','nav-menu')
 
-/*==================== accion del tema oscuro ====================*/
-let clickCount = 0;
-
-const logo = document.querySelector('nav__logo');
-logo.addEventListener('click', () => {
-    clickCount++;
-
-    if (clickCount === 5) {
-        document.body.classList.toggle('light-theme');
-        clickCount = 0; // Reiniciar el contador después de cambiar el tema
-    }
-});
-
 /*==================== quitar menu movil ====================*/
 const navLink = document.querySelectorAll('.nav__link')
 
