@@ -27,7 +27,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
 const sections = document.querySelectorAll('section[id]')
 
 const scrollActive = () =>{
-    const scrollDown = window.scrollY
+    const scrollDown = window.pageYOffset;
 
   sections.forEach(current =>{
         const sectionHeight = current.offsetHeight,
@@ -43,3 +43,12 @@ const scrollActive = () =>{
     })
 }
 window.addEventListener('scroll', scrollActive)
+/* =========Desplazamiento suave al hacer clic en los enlaces====== */
+navLink.forEach(n => {
+    n.addEventListener('click', function (e) {
+        e.preventDefault();
+        const sectionId = this.getAttribute('href').substring(1);
+        const section = document.getElementById(sectionId);
+        section.scrollIntoView({ behavior: 'smooth' });
+    });
+})
