@@ -1,6 +1,45 @@
 /* FUENTES DE GOOGLE */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
+/* Añadir la clase para el tema claro */
+.light-theme {
+    --first-color: hsl(224, 99%, 45%); /* Cambiar de naranja a azul */
+    --second-color: hsl(224, 89%, 12%);
+    --third-color: hsl(0, 0%, 0%); /* Texto negro */
+    --fourth-color: hsl(0, 0%, 80%); /* Barra de navegación y footer a gris claro */
+    --fifth-color: hsl(0, 0%, 100%); /* Fondo blanco */
+}
+
+.light-theme body {
+    background-color: var(--fifth-color);
+    color: var(--third-color);
+}
+
+.light-theme .l-header {
+    background-color: var(--fourth-color);
+}
+
+.light-theme .footer {
+    background-color: var(--fourth-color);
+    color: var(--third-color);
+}
+
+.light-theme .nav__logo,
+.light-theme .nav__link,
+.light-theme .section-title,
+.light-theme .home__title-color,
+.light-theme .skills__icon,
+.light-theme .footer__icon {
+    color: var(--first-color);
+}
+
+.light-theme .nav__link:hover::after,
+.light-theme .active-link::after,
+.light-theme .skills__bar,
+.light-theme .button {
+    background-color: var(--first-color);
+}
+
 
 /* VARIABLES CSS */
 :root{
@@ -516,42 +555,4 @@ img {
     .home__img {
       width: 450px;
     }
-}
-/* Añadir la clase para el tema claro */
-.light-theme {
-    --first-color: hsl(224, 99%, 45%); /* Cambiar de naranja a azul */
-    --second-color: hsl(224, 89%, 12%);
-    --third-color: hsl(0, 0%, 0%); /* Texto negro */
-    --fourth-color: hsl(0, 0%, 80%); /* Barra de navegación y footer a gris claro */
-    --fifth-color: hsl(0, 0%, 100%); /* Fondo blanco */
-}
-
-.light-theme body {
-    background-color: var(--fifth-color);
-    color: var(--third-color);
-}
-
-.light-theme .l-header {
-    background-color: var(--fourth-color);
-}
-
-.light-theme .footer {
-    background-color: var(--fourth-color);
-    color: var(--third-color);
-}
-
-.light-theme .nav__logo,
-.light-theme .nav__link,
-.light-theme .section-title,
-.light-theme .home__title-color,
-.light-theme .skills__icon,
-.light-theme .footer__icon {
-    color: var(--first-color);
-}
-
-.light-theme .nav__link:hover::after,
-.light-theme .active-link::after,
-.light-theme .skills__bar,
-.light-theme .button {
-    background-color: var(--first-color);
 }
