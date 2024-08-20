@@ -14,7 +14,7 @@ showMenu('nav-toggle','nav-menu')
 /*==================== accion del tema oscuro ====================*/
 let clickCount = 0;
 
-const logo = document.querySelector('.nav__logo');
+const logo = document.querySelector('nav__logo');
 logo.addEventListener('click', () => {
     clickCount++;
 
