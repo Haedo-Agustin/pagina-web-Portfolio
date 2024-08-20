@@ -43,6 +43,7 @@ const scrollActive = () =>{
     })
 }
 window.addEventListener('scroll', scrollActive)
+
 /* =========Desplazamiento suave al hacer clic en los enlaces====== */
 navLink.forEach(n => {
     n.addEventListener('click', function (e) {
