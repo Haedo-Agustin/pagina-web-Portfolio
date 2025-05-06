@@ -301,13 +301,13 @@ img {
     z-index: var(--z-back);
 }
 .skills__html {
-    width: 75%;
+    width: 90%;
 }
 .skills__css {
-    width: 75%;
+    width: 80%;
 }
 .skills__js {
-    width: 84%;
+    width: 80%;
 }
 .skills__ux {
     width: 45%;
